@@ -1,0 +1,29 @@
+{
+  "group": "mechacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "1": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "2": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "3": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "5": {
+      "item": "mechacraft:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mechacraft:steel_armor_helmet",
+    "count": 1
+  }
+}

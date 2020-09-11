@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mechacraft:blocks/furnace_back",
+    "up": "mechacraft:blocks/furnace_top",
+    "north": "mechacraft:blocks/furnace_front_off",
+    "east": "mechacraft:blocks/furnace_back",
+    "south": "mechacraft:blocks/furnace_back",
+    "west": "mechacraft:blocks/furnace_back",
+    "particle": "mechacraft:blocks/furnace_back"
+  }
+}

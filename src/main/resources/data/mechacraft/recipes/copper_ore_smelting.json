@@ -1,0 +1,12 @@
+{
+  "group": "mechacraft",
+  "type": "minecraft:smelting",
+  "experience": 0.4899999999999999,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "mechacraft:copper_ore"
+  },
+  "result": {
+    "item": "mechacraft:copper_ingot"
+  }
+}

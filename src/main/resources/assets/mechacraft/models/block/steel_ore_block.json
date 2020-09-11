@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mechacraft:blocks/block_of_steel",
+    "particle": "mechacraft:blocks/block_of_steel"
+  }
+}

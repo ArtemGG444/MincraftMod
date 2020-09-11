@@ -1,0 +1,42 @@
+{
+  "group": "mechacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "1": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "2": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "3": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "4": {
+      "item": "mechacraft:basic_batery"
+    },
+    "5": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "6": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "7": {
+      "item": "mechacraft:copper_ore_block"
+    },
+    "8": {
+      "item": "mechacraft:copper_ore_block"
+    }
+  },
+  "result": {
+    "item": "mechacraft:copper_energy_battery",
+    "count": 1
+  }
+}

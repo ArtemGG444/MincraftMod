@@ -1,0 +1,27 @@
+{
+  "group": "mechacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "1": {
+      "item": "mechacraft:steel_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mechacraft:steel_hoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Mecha Craft",
+    "icon": {
+      "value": "CUSTOM:BasicBatery"
+    },
+    "showSearch": false
+  }
+}

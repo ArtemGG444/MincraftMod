@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mechacraft:blocks/copper_ore",
+    "particle": "mechacraft:blocks/copper_ore"
+  }
+}
