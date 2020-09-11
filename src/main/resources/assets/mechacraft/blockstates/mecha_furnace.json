@@ -14,14 +14,6 @@
     "facing=west": {
       "model": "mechacraft:block/mecha_furnace",
       "y": 270
-    },
-    "facing=up": {
-      "model": "mechacraft:block/mecha_furnace",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "mechacraft:block/mecha_furnace",
-      "x": 90
     }
   }
 }

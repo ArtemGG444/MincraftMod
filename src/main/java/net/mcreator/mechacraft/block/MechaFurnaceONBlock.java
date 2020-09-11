@@ -55,7 +55,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.mechacraft.procedures.MechaFurnaceFurcingProcedure;
-import net.mcreator.mechacraft.itemgroup.MechaCraftItemGroup;
 import net.mcreator.mechacraft.gui.MechaFurnaceGuiGui;
 import net.mcreator.mechacraft.MechacraftModElements;
 
@@ -71,32 +70,32 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 @MechacraftModElements.ModElement.Tag
-public class MechaFurnaceBlock extends MechacraftModElements.ModElement {
-	@ObjectHolder("mechacraft:mecha_furnace")
+public class MechaFurnaceONBlock extends MechacraftModElements.ModElement {
+	@ObjectHolder("mechacraft:mecha_furnace_on")
 	public static final Block block = null;
-	@ObjectHolder("mechacraft:mecha_furnace")
+	@ObjectHolder("mechacraft:mecha_furnace_on")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public MechaFurnaceBlock(MechacraftModElements instance) {
-		super(instance, 49);
+	public MechaFurnaceONBlock(MechacraftModElements instance) {
+		super(instance, 53);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MechaCraftItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("mecha_furnace"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("mecha_furnace_on"));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("mecha_furnace");
+			setRegistryName("mecha_furnace_on");
 		}
 
 		@Override
@@ -286,7 +285,7 @@ public class MechaFurnaceBlock extends MechacraftModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("mecha_furnace");
+			return new StringTextComponent("mecha_furnace_on");
 		}
 
 		@Override

@@ -495,20 +495,81 @@
       "ids": {},
       "registry_name": "mecha_furnace_update_tick",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
     },
     {
-      "name": "MechaFurnaceOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 51,
+      "name": "MechaFurnaceGui",
+      "type": "gui",
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "mecha_furnace_on_block_right_clicked",
+      "registry_name": "mecha_furnace_gui"
+    },
+    {
+      "name": "MechaFurnaceON",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_furnace_on"
+    },
+    {
+      "name": "MechaFurnaceFurcing",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mecha_furnace_furcing",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
       }
+    },
+    {
+      "name": "CrativeEnergyBatery",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crative_energy_batery"
     }
   ],
   "variable_elements": [],
@@ -523,15 +584,17 @@
       "block.mechacraft.copper_ore_block": "Block of Copper",
       "item.mechacraft.copper_ingot": "Copper",
       "item.mechacraft.copper_pickaxe": "Copper Pickaxe",
+      "block.mechacraft.mecha_furnace_on": "Mecha Furnace",
       "item.mechacraft.copper_hoe": "Copper Hoe",
       "item.mechacraft.steel_armor_boots": "Steel Boots",
       "block.mechacraft.mecha_furnace": "Mecha Furnace",
       "item.mechacraft.steel_armor_helmet": "Steel Helmet",
       "block.mechacraft.steel_ore_block": "Block of Steel",
       "itemGroup.tabmecha_craft": "Mecha Craft",
+      "block.mechacraft.crative_energy_batery": "Copper Energ Battery",
       "item.mechacraft.basic_batery": "Basic Batery",
       "item.mechacraft.copper_sword": "Copper Sword",
-      "block.mechacraft.copper_energy_battery": "Copper Energ Battery",
+      "block.mechacraft.copper_energy_battery": "Copper Energ Batery",
       "item.mechacraft.steel_hoe": "Steel Hoe",
       "item.mechacraft.copper_armor_helmet": "Copper Helmet",
       "item.mechacraft.steel_armor_leggings": "Steel Leggings",

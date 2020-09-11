@@ -10,7 +10,7 @@
     "textureBack": "furnace_back",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 2,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "itemTexture": "",
     "hasTransparency": false,
@@ -72,9 +72,9 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "guiBoundTo": "MechaFurnaceGui",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -88,11 +88,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "MechaFurnaceOnBlockRightClicked"
-    },
     "onTickUpdate": {
-      "name": "MechaFurnaceUpdateTick"
+      "name": "MechaFurnaceFurcing"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
